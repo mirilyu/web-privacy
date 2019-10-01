@@ -387,4 +387,8 @@ body .brand--ui *, body .brand--ui * {
     .au-modal-footer {
         font-size: 1.25rem;
     }
+
+    .block-image__figure .animated {
+        opacity: 1 !important;
+    }
 }
