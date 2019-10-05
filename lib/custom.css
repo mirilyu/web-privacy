@@ -304,6 +304,10 @@ body .brand--ui *, body .brand--ui * {
     display: none;
 }
 
+.overview__logo {
+    padding: 0;
+}
+
 @media (min-width: 48em) {
     .blocks-lesson {
         padding-bottom: 3.5rem;
