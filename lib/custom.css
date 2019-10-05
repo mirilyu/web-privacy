@@ -73,15 +73,20 @@ body .brand--ui *, body .brand--ui * {
     padding: 0;
 }
 
-#overview-main .overview__logo {
+.hp-hit-logo, .hp-mp-logo {
     position: fixed;
-    right: 20px;
-    top: 20px;
 }
 
-#overview-main .overview__logo img {
-    width: 300px;
-    height: 57px;
+.hp-hit-logo {
+    top: 20px;
+    right: 30px;
+    width: 90px;
+}
+
+.hp-mp-logo {
+    top: 20px;
+    left: 30px;
+    width: 350px;
 }
 
 .overview__author.brand--ui {
@@ -221,16 +226,10 @@ body .brand--ui *, body .brand--ui * {
 
 .au-logo-text {
     margin-top: 40px;
-    display: flex;
-}
-
-.au-logo img {
-    width: 140px;
 }
 
 .au-text {
     margin-right: 15px;
-    text-align: right;
 }
 
 .au-close {
@@ -292,6 +291,19 @@ body .brand--ui *, body .brand--ui * {
     max-width: 94rem;
 }
 
+.au-logo-hit {
+    width: 120px;
+}
+
+.au-logo-mishpatim {
+    width: 400px;
+    max-width: 90%;
+}
+
+#overview-main .overview__logo img:first-child {
+    display: none;
+}
+
 @media (min-width: 48em) {
     .blocks-lesson {
         padding-bottom: 3.5rem;
@@ -299,6 +311,18 @@ body .brand--ui *, body .brand--ui * {
 }
 
 @media(max-width: 768px) {
+    .overview__side-panel {
+        height: 100vh !important;
+    }
+
+    .hp-mp-logo {
+        width: 250px;
+    }
+
+    .hp-hit-logo {
+        width: 60px;
+    }
+
     .copyright_pp {
         left: 0;
         right: 0;
@@ -313,18 +337,6 @@ body .brand--ui *, body .brand--ui * {
 
     .overview__side-panel {
         background-position: 45% 0;
-    }
-
-    #overview-main .overview__logo {
-        position: fixed;
-        right: 50%;
-        transform: translateX(50%);
-        top: 20px;
-    }
-
-    #overview-main .overview__logo img {
-        width: 180px;
-        height: 32px;
     }
 
     #overview .overview__side-panel {
