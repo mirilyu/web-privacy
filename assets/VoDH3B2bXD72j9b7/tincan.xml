@@ -2,13 +2,13 @@
 <tincan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://projecttincan.com/tincan.xsd">
 	<activities>
 		<activity id="http://69tlrQRK0XT_course_id" type="http://adlnet.gov/expapi/activities/course">
-			<name lang="und">76PROJECT</name>
+			<name lang="und">בואו נשחק</name>
 			<description lang="und" />
 			<launch lang="und">story.html</launch>
 		</activity>
 		<activity id="http://69tlrQRK0XT_course_id/5aH4QwvJ3b5" type="http://adlnet.gov/expapi/activities/objective">
-			<name lang="und">76PROJECT</name>
-			<description lang="und">76PROJECT</description>
+			<name lang="und">בואו נשחק</name>
+			<description lang="und">בואו נשחק</description>
 		</activity>
 		<activity id="http://69tlrQRK0XT_course_id/6HvmrpIArKs" type="http://adlnet.gov/expapi/activities/module">
 			<name lang="und">MAIN SLIDE</name>
