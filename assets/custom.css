@@ -75,7 +75,6 @@ body .brand--ui *, body .brand--ui * {
 
 .hp-hit-logo, .hp-mp-logo {
     position: fixed;
-    z-index: 20;
 }
 
 .hp-hit-logo {
@@ -307,10 +306,6 @@ body .brand--ui *, body .brand--ui * {
 
 .overview__logo {
     padding: 0;
-}
-
-div[data-block-id="ck1dup25p003m3a66wy0i3vlk"] {
-    text-align: center;
 }
 
 @media (min-width: 48em) {

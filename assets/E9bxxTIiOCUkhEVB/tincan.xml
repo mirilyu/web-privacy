@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tincan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://projecttincan.com/tincan.xsd">
+	<activities>
+		<activity id="http://6MRfGlibxXk_course_id" type="http://adlnet.gov/expapi/activities/course">
+			<name lang="und">76PROJECT</name>
+			<description lang="und" />
+			<launch lang="und">story.html</launch>
+		</activity>
+		<activity id="http://6MRfGlibxXk_course_id/6pQX3jr3loI" type="http://adlnet.gov/expapi/activities/objective">
+			<name lang="und">76PROJECT</name>
+			<description lang="und">76PROJECT</description>
+		</activity>
+		<activity id="http://6MRfGlibxXk_course_id/6lbXpXfKxkb" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">MAIN SLIDE</name>
+			<description lang="und">MAIN SLIDE</description>
+		</activity>
+	</activities>
+</tincan>

@@ -56,9 +56,9 @@ function renderAboutUsLink() {
 
 function renderHomeLogos() {
     var renderLogosInterval = setInterval(function () {
-        if (!document.getElementById("overview") || document.querySelector(".hp-hit-logo")) return;
+        if (!document.querySelector(".overview__logo") || document.querySelector(".hp-hit-logo")) return;
     
-        var logoDiv = document.getElementById("overview");
+        var logoDiv = document.querySelector(".overview__logo");
     
         var hitLogo = document.createElement('img');
         hitLogo.src = 'assets/hit.png';
