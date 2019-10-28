@@ -313,7 +313,8 @@ div[data-block-id="ck1dup25p003m3a66wy0i3vlk"] {
     text-align: center;
 }
 
-div[data-block-id="ck1dxvnuf005v3a66rki8mk4q"] {
+div[data-block-id="ck1dxvnuf005v3a66rki8mk4q"],
+div[data-block-id="ck2asyf32002z3b66263buf0z"] {
     direction: ltr;
 }
 
@@ -324,6 +325,14 @@ div[data-block-id="ck1dxvnuf005v3a66rki8mk4q"] {
 }
 
 @media(max-width: 768px) {
+    .sorting__row .playing-card__content {
+        padding: .5rem;
+    }
+
+    .sorting__row .fr-view {
+        font-size: 1.2rem;
+    }
+
     .overview__side-panel {
         height: 100vh !important;
     }
