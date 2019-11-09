@@ -426,3 +426,17 @@ div[data-block-id="ck2asyf32002z3b66263buf0z"] {
         opacity: 1 !important;
     }
 }
+
+@media(max-width: 480px) {
+    .hp-hit-logo {
+        width: 35px;
+    }
+
+    .hp-mp-logo {
+        width: 180px;
+    }
+
+    .playing-card__handle {
+        bottom: -15px;
+    }
+}
